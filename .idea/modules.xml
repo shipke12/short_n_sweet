@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/FullTime_Problems/FullTime_Problems.iml" filepath="$PROJECT_DIR$/FullTime_Problems/FullTime_Problems.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GoodPractice/GoodPractice.iml" filepath="$PROJECT_DIR$/GoodPractice/GoodPractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java_Before_MIPS/Java_Before_MIPS.iml" filepath="$PROJECT_DIR$/Java_Before_MIPS/Java_Before_MIPS.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/short_n_sweet.iml" filepath="$PROJECT_DIR$/.idea/short_n_sweet.iml" />
     </modules>
   </component>

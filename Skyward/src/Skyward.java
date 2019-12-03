@@ -75,28 +75,28 @@ Also, what is the total when 826,716 is passed in?
 	
 //***********************************************************************************************************************************
 /*Write a SQL query that lists the first and last name of each employee for the companies located in Florida 
- (State.Abbreviation is ‘FL’) and where either the employee is a Developer (Job.JobCode is ‘dev’) or their job code isn’t found 
+ (State.Abbreviation is ï¿½FLï¿½) and where either the employee is a Developer (Job.JobCode is ï¿½devï¿½) or their job code isnï¿½t found 
  in the Job table.  Order this query by last name, then first name.
 Company
-·   CompanyID, int
-·   Name, varchar(50)
-·   StateID, int
-·   StreetAddress, varchar(max)
+ï¿½   CompanyID, int
+ï¿½   Name, varchar(50)
+ï¿½   StateID, int
+ï¿½   StreetAddress, varchar(max)
 Employee
-·   EmployeeID, int
-·   CompanyID, int
-·   JobID, int
-·   FirstName, varchar(30)
-·   LastName, varchar(50)
-·   PhoneNumber, char(12)
+ï¿½   EmployeeID, int
+ï¿½   CompanyID, int
+ï¿½   JobID, int
+ï¿½   FirstName, varchar(30)
+ï¿½   LastName, varchar(50)
+ï¿½   PhoneNumber, char(12)
 State
-·   StateID, int
-·   Name, varchar(30)
-·   Abbreviation, char(2)
+ï¿½   StateID, int
+ï¿½   Name, varchar(30)
+ï¿½   Abbreviation, char(2)
 Job
-·   JobID, int
-·   JobCode, char(3)
-·   JobDesc, varchar(60)*/
+ï¿½   JobID, int
+ï¿½   JobCode, char(3)
+ï¿½   JobDesc, varchar(60)*/
 /*SELECT Employee.LastName, Employee.FirstName
 FROM Company, Employee, State, Job
 WHERE Company.CompanyID = Employee.CompanyID and Company.StateID = State.StateID
@@ -116,9 +116,9 @@ WHERE Company.CompanyID = Employee.CompanyID and Company.StateID = State.StateID
 	
 	//******************************************************************************************************************************
 	/*A palindromic number reads the same both ways (left-to-right and right-to-left).
-	The largest palindrome made from the product of two 2-digit numbers is 9,009 = 91 × 99.
-	The largest palindrome made from the product of two 3-digit numbers is 906,609 = 913 × 993.
-	The largest palindrome made from the product of two 4-digit numbers is 99,000,099 = 9,901 × 9,999.
+	The largest palindrome made from the product of two 2-digit numbers is 9,009 = 91 ï¿½ 99.
+	The largest palindrome made from the product of two 3-digit numbers is 906,609 = 913 ï¿½ 993.
+	The largest palindrome made from the product of two 4-digit numbers is 99,000,099 = 9,901 ï¿½ 9,999.
 	 
 	1. Write a function to find the largest palindrome made from the product of two 7-digit numbers.  
 	2. What is that product?
@@ -133,7 +133,7 @@ WHERE Company.CompanyID = Employee.CompanyID and Company.StateID = State.StateID
 	
 	public static void main(String[] args) {
 		long starttime = System.currentTimeMillis();
-		System.out.println("Largest Palindrome: " + palindrome(7));
+		System.out.println("Largest FullTime_Problems.Palindrome: " + palindrome(7));
 		System.out.println("Runtime in milliseconds: " + (System.currentTimeMillis() - starttime));
 	}
 	
